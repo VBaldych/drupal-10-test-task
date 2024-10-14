@@ -10,7 +10,7 @@ This is pretty simple example of landing page application based on Drupal 10
 ## Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/vbaldych/landing_page
+git clone https://github.com/vbaldych/drupal-10-test-task
 ```
 2. Access to the directory
 ```bash
