@@ -1,0 +1,25 @@
+uuid: ab98f39d-bac1-489e-a749-b0872e4da560
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_button:5f5fcbd3-8a3e-4f92-a18e-46325c4d718a'
+  module:
+    - block_content
+  theme:
+    - productive_shop
+id: productive_shop_button5
+theme: productive_shop
+region: secondary_menu
+weight: -2
+provider: null
+plugin: 'block_content:5f5fcbd3-8a3e-4f92-a18e-46325c4d718a'
+settings:
+  id: 'block_content:5f5fcbd3-8a3e-4f92-a18e-46325c4d718a'
+  label: 'Button - Become A Client'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

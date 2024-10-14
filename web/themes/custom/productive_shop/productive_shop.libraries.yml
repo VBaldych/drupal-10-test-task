@@ -1,0 +1,8 @@
+global-styling:
+  css:
+    theme:
+      css/global.css: {}
+      css/region/region-top.css: {}
+      css/block/block-hero.css: {}
+  dependencies:
+    - olivero/global-styling

@@ -1,0 +1,25 @@
+uuid: 30934ce5-7d53-470e-9a38-abab39f8a275
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - productive_shop
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: productive_shop_site_branding
+theme: productive_shop
+region: header
+weight: -3
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,36 @@
+uuid: 152e94e4-e548-47ee-a09b-57227a2c53e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_title_tag
+field_name: field_title_tag
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: h2
+      label: '<h2>Heading 2</h2>'
+    -
+      value: h3
+      label: '<h3>Heading 3</h3>'
+    -
+      value: h4
+      label: '<h4>Heading 4</h4>'
+    -
+      value: h5
+      label: '<h5>Heading 5</h5>'
+    -
+      value: h6
+      label: '<h6>Heading 6</h6>'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

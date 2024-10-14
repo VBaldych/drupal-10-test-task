@@ -1,0 +1,20 @@
+uuid: 8dc31129-9463-4f34-b283-2943186ed21d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - productive_shop
+id: productive_shop_primary_tabs
+theme: productive_shop
+region: highlighted
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

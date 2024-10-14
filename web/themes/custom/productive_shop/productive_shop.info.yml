@@ -1,0 +1,15 @@
+name: 'Productive Shop'
+type: theme
+description: 'A cuddly theme for Productive Shop project.'
+package: Project
+core_version_requirement: '>=10'
+libraries:
+  - productive_shop/global-styling
+base theme: olivero
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  secondary_menu: 'Secondary Menu'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  footer: 'Footer'

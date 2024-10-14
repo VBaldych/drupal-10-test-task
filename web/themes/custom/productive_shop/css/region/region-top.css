@@ -1,0 +1,89 @@
+.site-header {
+    padding-bottom: 8px;
+}
+
+.site-header__inner__container {
+    background-color: #fff;
+    margin: 21px auto 0;
+    padding: 22px 32px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.site-header__fixable,
+.site-branding__inner .site-branding__name a {
+    position: relative;
+}
+
+.site-header__initial {
+    position: absolute;
+}
+
+.site-branding {
+    min-height: initial;
+    padding: 0;
+    background: none;
+}
+
+.site-branding__inner {
+    height: auto;
+    padding: 0;
+}
+
+.site-branding__inner .site-branding__text {
+    margin-left: 9px;
+}
+
+.site-branding__inner .site-branding__name a {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 0.1px;
+    top: -3px;
+}
+
+span.is-active-menu-parent,
+.primary-nav__menu-link-inner::after {
+    display: none;
+}
+
+@media (min-width: 75rem) {
+    .site-header {
+        min-height: auto;
+    }
+
+    body:not(.is-always-mobile-nav) .header-nav {
+        margin: 0;
+        height: auto;
+    }
+
+    body:not(.is-always-mobile-nav) .primary-nav__menu-link-inner {
+        padding-block: 0;
+        letter-spacing: 0.04px;
+    }
+
+    body:not(.is-always-mobile-nav) .primary-nav__button-toggle .icon--menu-toggle {
+        inset-inline-start: 5px;
+    }
+
+    body:not(.is-always-mobile-nav) .primary-nav__menu-item--level-1:not(:last-child) {
+        margin-inline-end: 32px;
+    }
+
+    body:not(.is-always-mobile-nav) .primary-nav__menu-item--level-1.primary-nav__menu-item--has-children:not(:last-child) {
+        margin-inline-end: 48px;
+    }
+
+    body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
+        top: 40px;
+        border: none;
+        padding: 10px 20px;
+        min-height: auto;
+    }
+
+    body:not(.is-always-mobile-nav) .site-header__fixable.is-fixed {
+        inset-block-start: initial;
+        width: 100%;
+    }
+}

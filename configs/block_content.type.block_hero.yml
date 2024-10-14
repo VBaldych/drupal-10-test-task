@@ -1,0 +1,8 @@
+uuid: d0a61ac3-5829-438f-98f7-cc64607daf73
+langcode: en
+status: true
+dependencies: {  }
+id: block_hero
+label: 'Block Hero'
+revision: false
+description: 'This block should be located above of content section'

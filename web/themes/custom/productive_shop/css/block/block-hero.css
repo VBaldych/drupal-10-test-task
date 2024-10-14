@@ -1,0 +1,22 @@
+.block-inline-blockblock-hero .layout__region--first {
+    padding-left: 26px;
+    padding-top: 111px;
+}
+
+.block-inline-blockblock-hero .layout__region--first .hero-title {
+    margin-top: 0;
+    padding-right: 40px;
+    word-break: auto-phrase;
+}
+
+.block-inline-blockblock-hero .layout__region--first .field--name-field-description {
+    margin-bottom: 32px;
+}
+
+.block-inline-blockblock-hero .layout__region--first a.button {
+    margin-top: 0;
+}
+
+.block-inline-blockblock-hero .layout__region--second .field--name-field-image {
+    float: right;
+}

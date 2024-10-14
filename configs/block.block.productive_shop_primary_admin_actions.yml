@@ -1,0 +1,29 @@
+uuid: 0550c5cd-a8f9-4d91-a2a0-d7f5543dc32b
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - productive_shop
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: productive_shop_primary_admin_actions
+theme: productive_shop
+region: highlighted
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

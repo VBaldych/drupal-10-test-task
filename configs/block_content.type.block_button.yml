@@ -1,0 +1,8 @@
+uuid: f7085ce2-04fe-4d07-a24b-b075bda72e0b
+langcode: en
+status: true
+dependencies: {  }
+id: block_button
+label: Button
+revision: false
+description: 'Block button'

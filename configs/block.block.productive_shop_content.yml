@@ -1,0 +1,22 @@
+uuid: 4b77bc5a-14b1-4deb-baa5-07d66ee565eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - productive_shop
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: productive_shop_content
+theme: productive_shop
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
