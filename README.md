@@ -14,7 +14,7 @@ git clone https://github.com/vbaldych/drupal-10-test-task
 ```
 2. Access to the directory
 ```bash
-cd landing_page
+cd drupal-10-test-task
 ```
 
 3. Run DDEV
